@@ -1108,3 +1108,9 @@ a:hover {
 		margin-top: 42px;
 	}
 }
+
+@media (max-width: 400px) {
+	.slick-arrow {
+		display: none;
+	}
+}
