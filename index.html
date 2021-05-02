@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MarketSuply</title>
+
+	<meta charset="utf-8">
+
+	<!--<meta name="viewport" content="width=1170"></!-->
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+
+
+	<script src="https://kit.fontawesome.com/7b2244a88d.js" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header-main">
+				<div class="container header-body">
+					<a href="#" class="header__logo">
+						<p>Market<span>Suply</span></p><i class="fab fa-opencart"></i>
+					</a>
+					<div class="header__block">
+						<div class="header__top top-header menu">
+							<li><a href="#"><span>My Account</span></a></li>
+							<li><a href="#"><span>Whishlist</span></a></li>
+							<li><a href="#"><span>My Cart</span></a></li>
+							<li><a href="#"><span>Checkout</span></a></li>
+							<li><a href="#"><span>Login</span></a></li>
+						</div>
+						<div class="header__bottom header-bottom">
+							<form action="index.html" class="search-form" method="GET">
+								<input type="text" placeholder="Search here.." name="search">
+								<div class="search-button">
+									<input type="submit" class="search-button" value="">
+									<i class="fas fa-search"></i>
+								</div>
+							</form>
+							<div class="cart-block">
+								<a class="cart-button" href="#"><span><i class="fas fa-shopping-cart"></i></span></a>
+								<div class="price-block">
+									<p class="cart-block__title">Total</p>
+									<p class="cart-block__price"><span>600.00</span>$</p>
+								</div>
+							</div>
+						</div>
+						<div class="header__burger burger"><span></span></div>
+					</div>
+				</div>
+			</div>
+			<div class="header-foot">
+				<div class="container header-foot__body">
+					<div class="header__categories-button active">
+						<i class="fas fa-list-ul"></i><span>Categories</span>
+					</div>
+					<nav class="header-nav">
+						<li>
+							<a href="#">Clothing</a>
+						</li>
+						<li>
+							<a href="#">Electronics hot</a>
+						</li>
+						<li>
+							<a href="#">Health & Beauty</a>
+						</li>
+						<li>
+							<a href="#">Watches</a>
+						</li>
+						<li>
+							<a href="#"> Jewellery</a>
+						</li>
+						<li>
+							<a href="#"> Shoes</a>
+						</li>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<div class="content">
+			<div class="container content__body">
+				<div class="content__top top-content">
+					<div class="content__categories">
+						<li><i class="fas fa-play-circle"></i>
+							<a href="#">
+								<span>Clothing</span>
+							</a>
+						</li>
+						<li><i class="fas fa-play-circle"></i>
+							<a href="#">
+								<span>Electronics</span>
+							</a>
+						</li>
+						<li><i class="fas fa-play-circle"></i>
+							<a href="#">
+								<span>Shoes</span>
+							</a>
+						</li>
+						<li><i class="fas fa-play-circle"></i>
+							<a href="#">
+								<span>Watches</span>
+							</a>
+						</li>
+						<li><i class="fas fa-play-circle"></i>
+							<a href="#">
+								<span>Jewellery</span>
+							</a>
+						</li>
+						<li><i class="fas fa-play-circle"></i>
+							<a href="#">
+								<span>Health and Beauty</span>
+							</a>
+						</li>
+						<li><i class="fas fa-play-circle"></i>
+							<a href="#">
+								<span>Kids and Babies</span>
+							</a>
+						</li>
+						<li><i class="fas fa-play-circle"></i>
+							<a href="#">
+								<span>Sports</span>
+							</a>
+						</li>
+						<li><i class="fas fa-play-circle"></i>
+							<a href="#">
+								<span>Home and Garden</span>
+							</a>
+						</li>
+					</div>
+					<div class="content__banner banner">
+						<div class="banner__top top-banner">
+							<div class="banner__inner">
+								<div class="top-banner__title">
+									COLLECTION 2016 <br>
+									<span>save 50% for</span>
+								</div>
+								<div class="top-banner__subtitle">
+									FIRST PURCHASE
+								</div>
+								<div class="top-banner__button">
+									<a href="#"><span>Shop Now</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="banner__foot foot-banner">
+							<div class="foot-banner__item">
+								<div class="foot-banner__title">Money Back</div>
+								<div class="foot-banner__subtitle">30 Days Money Back Guarantee</div>
+							</div>
+							<div class="foot-banner__item">
+								<div class="foot-banner__title">Free Shipping</div>
+								<div class="foot-banner__subtitle">Shipping on orders over $99</div>
+							</div>
+							<div class="foot-banner__item">
+								<div class="foot-banner__title">Special Sale</div>
+								<div class="foot-banner__subtitle">Extra $5 off on all items</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content__main main-content">
+					<div class="main-content__left">
+						<div class="slider-l-block">
+							<div class="slider__title">Hot Deals</div>
+							<div class="slider-left">
+								<a href="#" class="slider-left__item">
+									<div class="slider-left__image"><img src="img/sl_l_1.webp" alt=""></div>
+									<div class="slider-left__name">Lorem, ipsum dolor.</div>
+									<div class="slider-left__price"><span class="old">100$</span>90$</div>
+									<div class="slider-left__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+								<a href="#" class="slider-left__item">
+									<div class="slider-left__image"><img src="img/sl_l_1.webp" alt=""></div>
+									<div class="slider-left__name">Lorem, ipsum dolor.</div>
+									<div class="slider-left__price"><span class="old">100$</span>90$</div>
+									<div class="slider-left__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+							</div>
+
+						</div>
+						<div class="slider-l-block">
+							<div class="slider__title">Special Deal</div>
+							<div class="slider-left">
+								<a href="#" class="slider-left__item">
+									<div class="slider-left__image"><img src="img/sl_l_2.webp" alt=""></div>
+									<div class="slider-left__name">Lorem, ipsum dolor.</div>
+									<div class="slider-left__price"><span class="old">100$</span>90$</div>
+									<div class="slider-left__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+								<a href="#" class="slider-left__item">
+									<div class="slider-left__image"><img src="img/sl_l_2.webp" alt=""></div>
+									<div class="slider-left__name">Lorem, ipsum dolor.</div>
+									<div class="slider-left__price"><span class="old">100$</span>90$</div>
+									<div class="slider-left__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+							</div>
+
+						</div>
+						<div class="newsletters">
+							<div class="newsletters__title">newsletters</div>
+							<div class="newsletters__subtitle">Sign Up for Our Newsletter!</div>
+							<form action="index.html" method="GET">
+								<input type="text" class="sign">
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+						<div class="left-banner"><img src="img/left_banner.webp" alt=""></div>
+					</div>
+					<div class="main-content__right">
+						<div class="slider-r-block">
+							<div class="slider__top">
+								<div class="slider__title">New Products</div>
+								<div class="slider__filter">
+									<li>All</li>
+									<li>Clothing</li>
+									<li>Electronics</li>
+									<li>Shoes</li>
+								</div>
+							</div>
+							<div class="slider-right">
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__name">Lorem, ipsum dolor.</div>
+									<div class="slider-right__price"><span class="old">100$</span>90$</div>
+									<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__name">Lorem, ipsum dolor.</div>
+									<div class="slider-right__price"><span class="old">100$</span>90$</div>
+									<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__name">Lorem, ipsum dolor.</div>
+									<div class="slider-right__price"><span class="old">100$</span>90$</div>
+									<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__name">Lorem, ipsum dolor.</div>
+									<div class="slider-right__price"><span class="old">100$</span>90$</div>
+									<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__name">Lorem, ipsum dolor.</div>
+									<div class="slider-right__price"><span class="old">100$</span>90$</div>
+									<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+							</div>
+
+						</div>
+						<div class="small-banners">
+							<a href="#" class="banner-small">
+								<img src="img/banner_s1.webp" alt="">
+							</a>
+							<a href="#" class="banner-small">
+								<img src="img/banner_s2.webp" alt="">
+							</a>
+						</div>
+						<div class="slider-r-block">
+							<div class="slider__top">
+								<div class="slider__title">Latest Products</div>
+								<div class="slider__filter">
+									<li>All</li>
+									<li>Clothing</li>
+									<li>Electronics</li>
+									<li>Shoes</li>
+								</div>
+							</div>
+							<div class="slider-right">
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__name">Lorem, ipsum dolor.</div>
+									<div class="slider-right__price"><span class="old">100$</span>90$</div>
+									<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__name">Lorem, ipsum dolor.</div>
+									<div class="slider-right__price"><span class="old">100$</span>90$</div>
+									<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__name">Lorem, ipsum dolor.</div>
+									<div class="slider-right__price"><span class="old">100$</span>90$</div>
+									<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__name">Lorem, ipsum dolor.</div>
+									<div class="slider-right__price"><span class="old">100$</span>90$</div>
+									<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__name">Lorem, ipsum dolor.</div>
+									<div class="slider-right__price"><span class="old">100$</span>90$</div>
+									<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+											class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+								</a>
+							</div>
+
+						</div>
+						<div class="banner2">
+							<div class="banner2__img"><img src="img/banner2.webp" alt=""></div>
+							<div class="banner2__content">
+								<div class="banner2__title">Beautiful Laptop
+								</div>
+								<div class="banner2__subtitle">Retina Display 18” Ready !</div>
+								<a class="banner2__button" href="#"><span>Shop Now</span></a>
+							</div>
+						</div>
+						<div class="slider-r-block double">
+							<div class="slider__top">
+								<div class="slider__title">Featured products</div>
+								<div class="slider__filter">
+									<li>All</li>
+									<li>Clothing</li>
+									<li>Electronics</li>
+									<li>Shoes</li>
+								</div>
+							</div>
+							<div class="slider-right double">
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__text">
+
+										<div class="slider-right__name">Lorem, ipsum dolor.</div>
+										<div class="slider-right__price"><span class="old">100$</span>90$</div>
+										<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+												class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+									</div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__text">
+
+										<div class="slider-right__name">Lorem, ipsum dolor.</div>
+										<div class="slider-right__price"><span class="old">100$</span>90$</div>
+										<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+												class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+									</div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__text">
+
+										<div class="slider-right__name">Lorem, ipsum dolor.</div>
+										<div class="slider-right__price"><span class="old">100$</span>90$</div>
+										<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+												class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+									</div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__text">
+
+										<div class="slider-right__name">Lorem, ipsum dolor.</div>
+										<div class="slider-right__price"><span class="old">100$</span>90$</div>
+										<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+												class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+									</div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__text">
+
+										<div class="slider-right__name">Lorem, ipsum dolor.</div>
+										<div class="slider-right__price"><span class="old">100$</span>90$</div>
+										<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+												class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+									</div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__text">
+
+										<div class="slider-right__name">Lorem, ipsum dolor.</div>
+										<div class="slider-right__price"><span class="old">100$</span>90$</div>
+										<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+												class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+									</div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__text">
+
+										<div class="slider-right__name">Lorem, ipsum dolor.</div>
+										<div class="slider-right__price"><span class="old">100$</span>90$</div>
+										<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+												class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+									</div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__text">
+
+										<div class="slider-right__name">Lorem, ipsum dolor.</div>
+										<div class="slider-right__price"><span class="old">100$</span>90$</div>
+										<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+												class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+									</div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__text">
+
+										<div class="slider-right__name">Lorem, ipsum dolor.</div>
+										<div class="slider-right__price"><span class="old">100$</span>90$</div>
+										<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+												class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+									</div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__text">
+
+										<div class="slider-right__name">Lorem, ipsum dolor.</div>
+										<div class="slider-right__price"><span class="old">100$</span>90$</div>
+										<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+												class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+									</div>
+								</a>
+								<a href="#" class="slider-right__item">
+									<div class="slider-right__image"><img src="img/sl_r_1.webp" alt=""></div>
+									<div class="slider-right__text">
+
+										<div class="slider-right__name">Lorem, ipsum dolor.</div>
+										<div class="slider-right__price"><span class="old">100$</span>90$</div>
+										<div class="slider-right__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+												class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+									</div>
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="sponsors">
+				<div class="container"><img src="img/brand4_368.webp" alt=""></div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="container footer__body">
+					<div class="footer__item">
+						<a href="#" class="header__logo">
+							<p>Market<span>Suply</span></p><i class="fab fa-opencart"></i>
+						</a>
+						<div class="footer__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh velit it’s a
+							cold world out there.</div>
+						<div class="footer__callback">
+							<div class="footer__adress">
+								<i class="fas fa-map-marker-alt"></i>0123 Main Road, Your City, NY 123456
+							</div>
+							<div class="footer__phone"><i class="fas fa-phone"></i><a href="tel:00023456789">(000) 2345 -
+									6789</a>
+							</div>
+							<div class="footer__email"><i class="fas fa-envelope"></i><a
+									href="tomail:info@psd.in.ua">info@psd.in.ua</a></div>
+						</div>
+					</div>
+					<div class="footer__item">
+						<div class="footer__title">Information</div>
+						<li>Our Story</li>
+						<li>Privacy & Policy</li>
+						<li>Terms & Conditions</li>
+						<li>Shipping & Delivery</li>
+						<li>Careers</li>
+						<li>FAQsQs</li>
+					</div>
+					<div class="footer__item ">
+						<div class="footer__title">Our Social</div>
+						<div class="row">
+							<div class="socs">
+								<div class="footer__link"><i class="fab fa-google-plus-g"></i>Google+
+								</div>
+								<a href="#" class="footer__link"><i class="fab fa-pinterest-p"></i>Pinterest</a>
+								<a href="#" class="footer__link"><i class="fab fa-vimeo-v"></i>Vimeo</a>
+								<a href="#" class="footer__link"><i class="fab fa-instagram"></i>Instagram</a>
+							</div>
+							<div class="socs">
+								<a href="#" class="footer__link"><i class="fab fa-facebook-f"></i>Facebook</a>
+								<a href="#" class="footer__link"><i class="fab fa-twitter"></i>Twitter</a>
+								<a href="#" class="footer__link"><i class="fas fa-rss"></i>RSS</a>
+								<a href="#" class="footer__link"><i class="fab fa-youtube"></i>YouTube</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__item">
+						<div class="footer__title">Opening Time</div>
+						<div class="footer__time">
+							<i class="fas fa-clock"></i>Monday - Friday: 08:30 am - 09:30 pm
+							Sat - Sun: 09:00 am - 10:00 pm
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container footer__bottom">
+					<div class="footer__nav">
+						<li><a href="#"><span>Sitemap </span></a></li>
+						<li><a href="#"><span>Searchs</span></a></li>
+						<li><a href="#"><span>Searchs</span></a></li>
+						<li><a href="#"><span>Advance</span></a></li>
+						<li><a href="#"><span>Searchs</span></a></li>
+						<li><a href="#"><span>Contact Us</span></a></li>
+					</div>
+					<div class="footer__copyright">© 2019 PSD.IN.UA | All Rights Reserved.</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+
+</html>
