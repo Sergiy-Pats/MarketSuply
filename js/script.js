@@ -74,12 +74,6 @@ jQuery('document').ready(function () {
 						slidesToShow: 2,
 					}
 				},
-				{
-					breakpoint: 768.1,
-					settings: {
-						slidesToShow: 1,
-					}
-				},
 			]
 		}
 	);
