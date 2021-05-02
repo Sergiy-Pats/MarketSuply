@@ -389,9 +389,6 @@ input[type="submit"] {
 			color: #222222;
 			font-size: 15px;
 		}
-		&.active {
-			display: none;
-		}
 	}
 }
 .banner {
@@ -493,6 +490,9 @@ a:hover {
 	}
 }
 @media (max-width: 768px) {
+	.content__categories.active {
+		display: none;
+	}
 	.top-content {
 		display: block;
 	}

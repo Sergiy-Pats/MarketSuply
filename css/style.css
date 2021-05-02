@@ -513,10 +513,6 @@ input[type="submit"] {
   font-size: 15px;
 }
 
-.content__categories.active {
-  display: none;
-}
-
 .banner {
   background: url(../img/banner.webp) center 0/auto 110%;
 }
@@ -631,6 +627,9 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .content__categories.active {
+    display: none;
+  }
   .top-content {
     display: block;
   }
