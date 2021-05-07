@@ -192,7 +192,7 @@ input[type="submit"] {
 	padding-top: 3px;
 }
 .burger {
-	z-index: 100;
+	z-index: 400;
 	margin: 2px 0 0 0;
 	display: block;
 	position: absolute;
@@ -232,7 +232,7 @@ input[type="submit"] {
 	}
 }
 .burger.active {
-	z-index: 100;
+	z-index: 400;
 	background-color: #fff;
 	& span {
 		transition: 0.4s;
@@ -324,6 +324,7 @@ input[type="submit"] {
 	}
 	.menu.active {
 		display: block;
+		z-index: 399;
 		//overflow: auto;
 	}
 	.cart-block {
