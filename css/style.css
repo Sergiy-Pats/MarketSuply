@@ -300,7 +300,7 @@ input[type="submit"] {
 }
 
 .burger {
-  z-index: 100;
+  z-index: 400;
   margin: 2px 0 0 0;
   display: block;
   position: absolute;
@@ -346,7 +346,7 @@ input[type="submit"] {
 }
 
 .burger.active {
-  z-index: 100;
+  z-index: 400;
   background-color: #fff;
 }
 
@@ -446,7 +446,7 @@ input[type="submit"] {
     left: 0;
     right: 0;
     width: 100%;
-    height: 86%;
+    height: 100%;
     background-color: #222;
   }
   .menu li a span {
@@ -455,6 +455,7 @@ input[type="submit"] {
   }
   .menu.active {
     display: block;
+    z-index: 399;
   }
   .cart-block {
     position: absolute;
